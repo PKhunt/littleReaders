@@ -1,0 +1,1026 @@
+{
+    "levels": [
+        {
+            "flippable": true,
+            "number": 1,
+            "title": "Level 1",
+            "subtitle": "Alphabet Cards",
+            "color": "#F04768",
+            "color_pressed":"#B2334D",
+            "descriptions": [
+                "· Each card has an upper case and lower case letter. On the reverse side of each card is the lower case letter and an image to help identify the sound.",
+                "· Use the pictures to find the phonetic sound of the letter on the card, e.g. ball will help make the sound ‘b’.",
+                "· Repeat this exercise with every letter card until your child can read the letter phonetically without using the pictures as clues."],
+            "play_button_drawable":"level1_inactive_sound",
+            "play_button_pressed_drawable":"level1_pressed_sound",
+            "flip_button_drawable":"level1_inactive_flip",
+            "flip_button_pressed_drawable":"level1_pressed_flip",
+            "cards": [
+                {
+                    "front_drawable": "level1_a_back",
+                    "back_drawable": "level1_a",
+                    "front_sound": "a",
+                    "back_sound": "apple",
+                    "name": "a",
+                    "index": 1
+                },
+                {
+                    "front_drawable": "level1_b_back",
+                    "back_drawable": "level1_b",
+                    "front_sound": "b",
+                    "back_sound": "ball",
+                    "name": "b",
+                    "index": 2
+                },
+                {
+                    "front_drawable": "level1_c_back",
+                    "back_drawable": "level1_c",
+                    "front_sound": "c",
+                    "back_sound": "cat",
+                    "name": "c",
+                    "index": 3
+                },
+                {
+                    "front_drawable": "level1_d_back",
+                    "back_drawable": "level1_d",
+                    "front_sound": "d",
+                    "back_sound": "duck",
+                    "name": "d",
+                    "index": 4
+                },
+                {
+                    "front_drawable": "level1_e_back",
+                    "back_drawable": "level1_e",
+                    "front_sound": "e",
+                    "back_sound": "elephant",
+                    "name": "e",
+                    "index": 5
+                },
+                {
+                    "front_drawable": "level1_f_back",
+                    "back_drawable": "level1_f",
+                    "front_sound": "f",
+                    "back_sound": "frog",
+                    "name": "f",
+                    "index": 6
+                },
+                {
+                    "front_drawable": "level1_g_back",
+                    "back_drawable": "level1_g",
+                    "front_sound": "g",
+                    "back_sound": "grapes",
+                    "name": "g",
+                    "index": 7
+                },
+                {
+                    "front_drawable": "level1_h_back",
+                    "back_drawable": "level1_h",
+                    "front_sound": "h",
+                    "back_sound": "helicopter",
+                    "name": "h",
+                    "index": 8
+                },
+                {
+                    "front_drawable": "level1_i_back",
+                    "back_drawable": "level1_i",
+                    "front_sound": "i",
+                    "back_sound": "igloo",
+                    "name": "i",
+                    "index": 9
+                },
+                {
+                    "front_drawable": "level1_j_back",
+                    "back_drawable": "level1_j",
+                    "front_sound": "j",
+                    "back_sound": "jack",
+                    "name": "j",
+                    "index": 10
+                },
+                {
+                    "front_drawable": "level1_k_back",
+                    "back_drawable": "level1_k",
+                    "front_sound": "k",
+                    "back_sound": "kite",
+                    "name": "k",
+                    "index": 11
+                },
+                {
+                    "front_drawable": "level1_l_back",
+                    "back_drawable": "level1_l",
+                    "front_sound": "l",
+                    "back_sound": "lion",
+                    "name": "l",
+                    "index": 12
+                },
+                {
+                    "front_drawable": "level1_m_back",
+                    "back_drawable": "level1_m",
+                    "front_sound": "m",
+                    "back_sound": "monkey",
+                    "name": "m",
+                    "index": 13
+                },
+                {
+                    "front_drawable": "level1_n_back",
+                    "back_drawable": "level1_n",
+                    "front_sound": "n",
+                    "back_sound": "nest",
+                    "name": "n",
+                    "index": 14
+                },
+                {
+                    "front_drawable": "level1_o_back",
+                    "back_drawable": "level1_o",
+                    "front_sound": "o",
+                    "back_sound": "octopus",
+                    "name": "o",
+                    "index": 15
+                },
+                {
+                    "front_drawable": "level1_p_back",
+                    "back_drawable": "level1_p",
+                    "front_sound": "p",
+                    "back_sound": "penguin",
+                    "name": "p",
+                    "index": 16
+                },
+                {
+                    "front_drawable": "level1_q_back",
+                    "back_drawable": "level1_q",
+                    "front_sound": "q",
+                    "back_sound": "queen",
+                    "name": "q",
+                    "index": 17
+                },
+                {
+                    "front_drawable": "level1_r_back",
+                    "back_drawable": "level1_r",
+                    "front_sound": "r",
+                    "back_sound": "rabbit",
+                    "name": "r",
+                    "index": 18
+                },
+                {
+                    "front_drawable": "level1_s_back",
+                    "back_drawable": "level1_s",
+                    "front_sound": "s",
+                    "back_sound": "snake",
+                    "name": "s",
+                    "index": 19
+                },
+                {
+                    "front_drawable": "level1_t_back",
+                    "back_drawable": "level1_t",
+                    "front_sound": "t",
+                    "back_sound": "tent",
+                    "name": "t",
+                    "index": 20
+                },
+                {
+                    "front_drawable": "level1_u_back",
+                    "back_drawable": "level1_u",
+                    "front_sound": "u",
+                    "back_sound": "umbrella",
+                    "name": "u",
+                    "index": 21
+                },
+                {
+                    "front_drawable": "level1_v_back",
+                    "back_drawable": "level1_v",
+                    "front_sound": "v",
+                    "back_sound": "vase",
+                    "name": "v",
+                    "index": 22
+                },
+                {
+                    "front_drawable": "level1_w_back",
+                    "back_drawable": "level1_w",
+                    "front_sound": "w",
+                    "back_sound": "whale",
+                    "name": "w",
+                    "index": 23
+                },
+                {
+                    "front_drawable": "level1_x_back",
+                    "back_drawable": "level1_x",
+                    "front_sound": "x",
+                    "back_sound": "xray",
+                    "name": "x",
+                    "index": 24
+                },
+                {
+                    "front_drawable": "level1_y_back",
+                    "back_drawable": "level1_y",
+                    "front_sound": "y",
+                    "back_sound": "yoyo",
+                    "name": "y",
+                    "index": 25
+                },
+                {
+                    "front_drawable": "level1_z_back",
+                    "back_drawable": "level1_z",
+                    "front_sound": "z",
+                    "back_sound": "zebra",
+                    "name": "z",
+                    "index": 26
+                }
+            ]
+        },
+        {
+            "flippable": true,
+            "number": 2,
+            "title": "Level 2",
+            "subtitle": "Blending Cards with Pictures",
+            "color": "#0095DA",
+            "color_pressed": "#1870A0",
+            "descriptions": [
+                    "· By now your child has learned all the letters phonetically. These cards will introduce the skill of blending the letter sounds together to make words.",
+                    "· Spell out the word on the first card phonetically, b-a-t.",
+                    "· Repeat sounding out the letters and try to roll the letter sounds together to make the word.",
+                    "· Use the picture on the back of the card to help with blending the letters into a word.",
+                    "· Repeat this procedure for every card in the level until your child is comfortable with the process of blending sounds into words."
+                ],
+            "play_button_drawable":"level2_inactive_sound",
+            "play_button_pressed_drawable":"level2_pressed_sound",
+            "flip_button_drawable":"level2_inactive_flip",
+            "flip_button_pressed_drawable":"level2_pressed_flip",
+            "cards": [
+                {
+                    "front_drawable": "level2_0_fan",
+                    "back_drawable": "level2_0_fan_back",
+                    "front_sound": "fan_sp",
+                    "back_sound": "fan_sp",
+                    "name": "fan",
+                    "index": 0
+                },
+                {
+                    "front_drawable": "level2_1_hot",
+                    "back_drawable": "level2_1_hot_back",
+                    "front_sound": "hot_sp",
+                    "back_sound": "hot_sp",
+                    "name": "hot",
+                    "index": 1
+                },
+                {
+                    "front_drawable": "level2_2_net",
+                    "back_drawable": "level2_2_net_back",
+                    "front_sound": "net_sp",
+                    "back_sound": "net_sp",
+                    "name": "net",
+                    "index": 2
+                },
+                {
+                    "front_drawable": "level2_3_man",
+                    "back_drawable": "level2_3_man_back",
+                    "front_sound": "man_sp",
+                    "back_sound": "man_sp",
+                    "name": "man",
+                    "index": 3
+                },
+                {
+                    "front_drawable": "level2_4_dot",
+                    "back_drawable": "level2_4_dot_back",
+                    "front_sound": "dot_sp",
+                    "back_sound": "dot_sp",
+                    "name": "dot",
+                    "index": 4
+                },
+                {
+                    "front_drawable": "level2_5_bed",
+                    "back_drawable": "level2_5_bed_back",
+                    "front_sound": "bed_sp",
+                    "back_sound": "bed_sp",
+                    "name": "bed",
+                    "index": 5
+                },
+                {
+                    "front_drawable": "level2_6_map",
+                    "back_drawable": "level2_6_map_back",
+                    "front_sound": "map_sp",
+                    "back_sound": "map_sp",
+                    "name": "map",
+                    "index": 6
+                },
+                {
+                    "front_drawable": "level2_7_pot",
+                    "back_drawable": "level2_7_pot_back",
+                    "front_sound": "pot_sp",
+                    "back_sound": "pot_sp",
+                    "name": "pot",
+                    "index": 7
+                },
+                {
+                    "front_drawable": "level2_8_men",
+                    "back_drawable": "level2_8_men_back",
+                    "front_sound": "men_sp",
+                    "back_sound": "men_sp",
+                    "name": "men",
+                    "index": 8
+                },
+                {
+                    "front_drawable": "level2_9_bat",
+                    "back_drawable": "level2_9_bat_back",
+                    "front_sound": "bat_sp",
+                    "back_sound": "bat_sp",
+                    "name": "bat",
+                    "index": 9
+                },
+                {
+                    "front_drawable": "level2_10_cot",
+                    "back_drawable": "level2_10_cot_back",
+                    "front_sound": "cot_sp",
+                    "back_sound": "cot_sp",
+                    "name": "cot",
+                    "index": 10
+                },
+                {
+                    "front_drawable": "level2_11_ten",
+                    "back_drawable": "level2_11_ten_back",
+                    "front_sound": "ten_sp",
+                    "back_sound": "ten_sp",
+                    "name": "ten",
+                    "index": 11
+                },
+                {
+                    "front_drawable": "level2_12_nut",
+                    "back_drawable": "level2_12_nut_back",
+                    "front_sound": "nut_sp",
+                    "back_sound": "nut_sp",
+                    "name": "nut",
+                    "index": 12
+                },
+                {
+                    "front_drawable": "level2_13_hat",
+                    "back_drawable": "level2_13_hat_back",
+                    "front_sound": "hat_sp",
+                    "back_sound": "hat_sp",
+                    "name": "hat",
+                    "index": 13
+                },
+                {
+                    "front_drawable": "level2_14_gum",
+                    "back_drawable": "level2_14_gum_back",
+                    "front_sound": "gum_sp",
+                    "back_sound": "gum_sp",
+                    "name": "gum",
+                    "index": 14
+                },
+                {
+                    "front_drawable": "level2_15_tin",
+                    "back_drawable": "level2_15_tin_back",
+                    "front_sound": "tin_sp",
+                    "back_sound": "tin_sp",
+                    "name": "tin",
+                    "index": 15
+                },
+                {
+                    "front_drawable": "level2_16_bud",
+                    "back_drawable": "level2_16_bud_back",
+                    "front_sound": "bud_sp",
+                    "back_sound": "bud_sp",
+                    "name": "bud",
+                    "index": 16
+                },
+                {
+                    "front_drawable": "level2_17_bug",
+                    "back_drawable": "level2_17_bug_back",
+                    "front_sound": "bug_sp",
+                    "back_sound": "bug_sp",
+                    "name": "bug",
+                    "index": 17
+                },
+                {
+                    "front_drawable": "level2_18_cup",
+                    "back_drawable": "level2_18_cup_back",
+                    "front_sound": "cup_sp",
+                    "back_sound": "cup_sp",
+                    "name": "cup",
+                    "index": 18
+                },
+                {
+                    "front_drawable": "level2_19_top",
+                    "back_drawable": "level2_19_top_back",
+                    "front_sound": "top_sp",
+                    "back_sound": "top_sp",
+                    "name": "top",
+                    "index": 19
+                },
+                {
+                    "front_drawable": "level2_20_pin",
+                    "back_drawable": "level2_20_pin_back",
+                    "front_sound": "pin_sp",
+                    "back_sound": "pin_sp",
+                    "name": "pin",
+                    "index": 20
+                },
+                {
+                    "front_drawable": "level2_21_fin",
+                    "back_drawable": "level2_21_fin_back",
+                    "front_sound": "fin_sp",
+                    "back_sound": "fin_sp",
+                    "name": "fin",
+                    "index": 21
+                },
+                {
+                    "front_drawable": "level2_22_pig",
+                    "back_drawable": "level2_22_pig_back",
+                    "front_sound": "pig_sp",
+                    "back_sound": "pig_sp",
+                    "name": "pig",
+                    "index": 22
+                },
+                {
+                    "front_drawable": "level2_23_wig",
+                    "back_drawable": "level2_23_wig_back",
+                    "front_sound": "wig_sp",
+                    "back_sound": "wig_sp",
+                    "name": "wig",
+                    "index": 23
+                }
+            ]
+        },
+        {
+            "flippable": false,
+            "number": 3,
+            "title": "Level 3",
+            "subtitle": "Blending Cards without Pictures",
+            "color": "#00B26B",
+            "color_pressed": "#008651",
+            "descriptions": [
+                "· This level is designed to reinforce sound blending skills learned in Level 2.",
+                "· There are no picture clues on these cards so it might be necessary to repeat the spelling of the words to help the blending of the letters.",
+                "· By the end of this section your child should be comfortable with blending, however it may also be necessary to repeat some of the stages to increase confidence."
+            ],
+            "play_button_drawable":"level3_inactive_sound",
+            "play_button_pressed_drawable":"level3_pressed_sound",
+            "flip_button_drawable":"level3_inactive_flip",
+            "flip_button_pressed_drawable":"level3_pressed_flip",
+            "cards": [
+                {
+                    "front_drawable": "level3_0_peg",
+                    "back_drawable": null,
+                    "front_sound": "peg_sp",
+                    "back_sound": null,
+                    "name": "peg",
+                    "index": 0
+                },
+                {
+                    "front_drawable": "level3_1_mud",
+                    "back_drawable": null,
+                    "front_sound": "mud_sp",
+                    "back_sound": null,
+                    "name": "mud",
+                    "index": 1
+                },
+                {
+                    "front_drawable": "level3_2_lid",
+                    "back_drawable": null,
+                    "front_sound": "lid_sp",
+                    "back_sound": null,
+                    "name": "lid",
+                    "index": 2
+                },
+                {
+                    "front_drawable": "level3_3_bit",
+                    "back_drawable": null,
+                    "front_sound": "bit_sp",
+                    "back_sound": null,
+                    "name": "bit",
+                    "index": 3
+                },
+                {
+                    "front_drawable": "level3_4_met",
+                    "back_drawable": null,
+                    "front_sound": "met_sp",
+                    "back_sound": null,
+                    "name": "met",
+                    "index": 4
+                },
+                {
+                    "front_drawable": "level3_5_rot",
+                    "back_drawable": null,
+                    "front_sound": "rot_sp",
+                    "back_sound": null,
+                    "name": "rot",
+                    "index": 5
+                },
+                {
+                    "front_drawable": "level3_6_got",
+                    "back_drawable": null,
+                    "front_sound": "got_sp",
+                    "back_sound": null,
+                    "name": "got",
+                    "index": 6
+                },
+                {
+                    "front_drawable": "level3_7_fat",
+                    "back_drawable": null,
+                    "front_sound": "fat_sp",
+                    "back_sound": null,
+                    "name": "fat",
+                    "index": 7
+                },
+                {
+                    "front_drawable": "level3_8_ham",
+                    "back_drawable": null,
+                    "front_sound": "ham_sp",
+                    "back_sound": null,
+                    "name": "ham",
+                    "index": 8
+                },
+                {
+                    "front_drawable": "level3_9_but",
+                    "back_drawable": null,
+                    "front_sound": "but_sp",
+                    "back_sound": null,
+                    "name": "but",
+                    "index": 9
+                },
+                {
+                    "front_drawable": "level3_10_hit",
+                    "back_drawable": null,
+                    "front_sound": "hit_sp",
+                    "back_sound": null,
+                    "name": "hit",
+                    "index": 10
+                },
+                {
+                    "front_drawable": "level3_11_cat",
+                    "back_drawable": null,
+                    "front_sound": "cat_sp",
+                    "back_sound": null,
+                    "name": "cat",
+                    "index": 11
+                },
+                {
+                    "front_drawable": "level3_12_rut",
+                    "back_drawable": null,
+                    "front_sound": "rut_sp",
+                    "back_sound": null,
+                    "name": "rut",
+                    "index": 12
+                },
+                {
+                    "front_drawable": "level3_13_hen",
+                    "back_drawable": null,
+                    "front_sound": "hen_sp",
+                    "back_sound": null,
+                    "name": "hen",
+                    "index": 13
+                },
+                {
+                    "front_drawable": "level3_14_big",
+                    "back_drawable": null,
+                    "front_sound": "big_sp",
+                    "back_sound": null,
+                    "name": "big",
+                    "index": 14
+                },
+                {
+                    "front_drawable": "level3_15_pan",
+                    "back_drawable": null,
+                    "front_sound": "pan_sp",
+                    "back_sound": null,
+                    "name": "pan",
+                    "index": 15
+                },
+                {
+                    "front_drawable": "level3_16_top",
+                    "back_drawable": null,
+                    "front_sound": "top_sp",
+                    "back_sound": null,
+                    "name": "top",
+                    "index": 16
+                },
+                {
+                    "front_drawable": "level3_17_hut",
+                    "back_drawable": null,
+                    "front_sound": "hut_sp",
+                    "back_sound": null,
+                    "name": "hut",
+                    "index": 17
+                },
+                {
+                    "front_drawable": "level3_18_jug",
+                    "back_drawable": null,
+                    "front_sound": "jug_sp",
+                    "back_sound": null,
+                    "name": "jug",
+                    "index": 18
+                },
+                {
+                    "front_drawable": "level3_19_den",
+                    "back_drawable": null,
+                    "front_sound": "den_sp",
+                    "back_sound": null,
+                    "name": "den",
+                    "index": 19
+                },
+                {
+                    "front_drawable": "level3_20_jot",
+                    "back_drawable": null,
+                    "front_sound": "jot_sp",
+                    "back_sound": null,
+                    "name": "jot",
+                    "index": 20
+                },
+                {
+                    "front_drawable": "level3_21_bet",
+                    "back_drawable": null,
+                    "front_sound": "bet_sp",
+                    "back_sound": null,
+                    "name": "bet",
+                    "index": 21
+                },
+                {
+                    "front_drawable": "level3_22_pit",
+                    "back_drawable": null,
+                    "front_sound": "pit_sp",
+                    "back_sound": null,
+                    "name": "pit",
+                    "index": 22
+                },
+                {
+                    "front_drawable": "level3_23_mat",
+                    "back_drawable": null,
+                    "front_sound": "mat_sp",
+                    "back_sound": null,
+                    "name": "mat",
+                    "index": 23
+                },
+                {
+                    "front_drawable": "level3_24_fit",
+                    "back_drawable": null,
+                    "front_sound": "fit_sp",
+                    "back_sound": null,
+                    "name": "fit",
+                    "index": 24
+                },
+                {
+                    "front_drawable": "level3_25_yet",
+                    "back_drawable": null,
+                    "front_sound": "yet_sp",
+                    "back_sound": null,
+                    "name": "yet",
+                    "index": 25
+                },
+                {
+                    "front_drawable": "level3_26_lot",
+                    "back_drawable": null,
+                    "front_sound": "lot_sp",
+                    "back_sound": null,
+                    "name": "lot",
+                    "index": 26
+                },
+                {
+                    "front_drawable": "level3_27_sit",
+                    "back_drawable": null,
+                    "front_sound": "sit_sp",
+                    "back_sound": null,
+                    "name": "sit",
+                    "index": 27
+                },
+                {
+                    "front_drawable": "level3_28_let",
+                    "back_drawable": null,
+                    "front_sound": "let_sp",
+                    "back_sound": null,
+                    "name": "let",
+                    "index": 28
+                },
+                {
+                    "front_drawable": "level3_29_sat",
+                    "back_drawable": null,
+                    "front_sound": "sat_sp",
+                    "back_sound": null,
+                    "name": "sat",
+                    "index": 29
+                },
+                {
+                    "front_drawable": "level3_30_cut",
+                    "back_drawable": null,
+                    "front_sound": "cut_sp",
+                    "back_sound": null,
+                    "name": "cut",
+                    "index": 30
+                },
+                {
+                    "front_drawable": "level3_31_fun",
+                    "back_drawable": null,
+                    "front_sound": "fun_sp",
+                    "back_sound": null,
+                    "name": "fun",
+                    "index": 31
+                },
+                {
+                    "front_drawable": "level3_32_job",
+                    "back_drawable": null,
+                    "front_sound": "job_sp",
+                    "back_sound": null,
+                    "name": "job",
+                    "index": 32
+                },
+                {
+                    "front_drawable": "level3_33_get",
+                    "back_drawable": null,
+                    "front_sound": "get_sp",
+                    "back_sound": null,
+                    "name": "get",
+                    "index": 33
+                },
+                {
+                    "front_drawable": "level3_34_sip",
+                    "back_drawable": null,
+                    "front_sound": "sip_sp",
+                    "back_sound": null,
+                    "name": "sip",
+                    "index": 34
+                },
+                {
+                    "front_drawable": "level3_35_wet",
+                    "back_drawable": null,
+                    "front_sound": "wet_sp",
+                    "back_sound": null,
+                    "name": "wet",
+                    "index": 35
+                },
+                {
+                    "front_drawable": "level3_36_can",
+                    "back_drawable": null,
+                    "front_sound": "can_sp",
+                    "back_sound": null,
+                    "name": "can",
+                    "index": 36
+                }
+            ]
+        },
+        {
+            "flippable": false,
+            "number": 4,
+            "title": "Level 4",
+            "subtitle": "Vowel/Consonant Blends and Sight Words",
+            "color": "#784899",
+            "color_pressed": "#5B3274",
+            "descriptions": [
+                "· An important part of learning to read is memorizing vowel and consonant blends:  ‘sh’  ‘ch’  ‘ee’  ‘oo’  ‘th’.",
+                "· When you are sounding out words in this level, your child needs to keep the letters blended together at all times,  e.g. ‘that’ would be sounded out as ‘th-a-t’.",
+                "· The sight words in this level are an introduction to words commonly found in early reading books.",
+                "· By the end of level 4 a child will have the skills for introductory reading."
+            ],
+            "play_button_drawable":"level4_inactive_sound",
+            "play_button_pressed_drawable":"level4_pressed_sound",
+            "flip_button_drawable":"level4_inactive_flip",
+            "flip_button_pressed_drawable":"level4_pressed_flip",
+            "cards": [
+                {
+                    "front_drawable": "level4_0_oo",
+                    "back_drawable": null,
+                    "front_sound": "oo",
+                    "back_sound": null,
+                    "name": "oo",
+                    "index": 0
+                },
+                {
+                    "front_drawable": "level4_3_mood",
+                    "back_drawable": null,
+                    "front_sound": "mood_sp",
+                    "back_sound": null,
+                    "name": "mood",
+                    "index": 1
+                },
+                {
+                    "front_drawable": "level4_9_moon",
+                    "back_drawable": null,
+                    "front_sound": "moon_sp",
+                    "back_sound": null,
+                    "name": "moon",
+                    "index": 2
+                },
+                {
+                    "front_drawable": "level4_23_soon",
+                    "back_drawable": null,
+                    "front_sound": "soon_sp",
+                    "back_sound": null,
+                    "name": "soon",
+                    "index": 3
+                },
+                {
+                    "front_drawable": "level4_1_ee",
+                    "back_drawable": null,
+                    "front_sound": "ee",
+                    "back_sound": null,
+                    "name": "ee",
+                    "index": 4
+                },
+                {
+                    "front_drawable": "level4_2_weep",
+                    "back_drawable": null,
+                    "front_sound": "weep_sp",
+                    "back_sound": null,
+                    "name": "weep",
+                    "index": 5
+                },
+                {
+                    "front_drawable": "level4_4_keen",
+                    "back_drawable": null,
+                    "front_sound": "keen_sp",
+                    "back_sound": null,
+                    "name": "keen",
+                    "index": 6
+                },
+                {
+                    "front_drawable": "level4_7_keep",
+                    "back_drawable": null,
+                    "front_sound": "keep_sp",
+                    "back_sound": null,
+                    "name": "keep",
+                    "index": 7
+                },
+                {
+                    "front_drawable": "level4_10_seen",
+                    "back_drawable": null,
+                    "front_sound": "seen_sp",
+                    "back_sound": null,
+                    "name": "seen",
+                    "index": 8
+                },
+                {
+                    "front_drawable": "level4_27_deep",
+                    "back_drawable": null,
+                    "front_sound": "deep_sp",
+                    "back_sound": null,
+                    "name": "deep",
+                    "index": 9
+                },
+                {
+                    "front_drawable": "level4_5_sh",
+                    "back_drawable": null,
+                    "front_sound": "sh",
+                    "back_sound": null,
+                    "name": "sh",
+                    "index": 10
+                },
+                {
+                    "front_drawable": "level4_8_shed",
+                    "back_drawable": null,
+                    "front_sound": "shed_sp",
+                    "back_sound": null,
+                    "name": "shed",
+                    "index": 11
+                },
+                {
+                    "front_drawable": "level4_11_shut",
+                    "back_drawable": null,
+                    "front_sound": "shut_sp",
+                    "back_sound": null,
+                    "name": "shut",
+                    "index": 12
+                },
+                {
+                    "front_drawable": "level4_12_rush",
+                    "back_drawable": null,
+                    "front_sound": "rush_sp",
+                    "back_sound": null,
+                    "name": "rush",
+                    "index": 13
+                },
+                {
+                    "front_drawable": "level4_24_ship",
+                    "back_drawable": null,
+                    "front_sound": "ship_sp",
+                    "back_sound": null,
+                    "name": "ship",
+                    "index": 14
+                },
+                {
+                    "front_drawable": "level4_15_ch",
+                    "back_drawable": null,
+                    "front_sound": "ch",
+                    "back_sound": null,
+                    "name": "ch",
+                    "index": 15
+                },
+                {
+                    "front_drawable": "level4_13_chip",
+                    "back_drawable": null,
+                    "front_sound": "chip_sp",
+                    "back_sound": null,
+                    "name": "chip",
+                    "index": 16
+                },
+                {
+                    "front_drawable": "level4_18_chill",
+                    "back_drawable": null,
+                    "front_sound": "chill_sp",
+                    "back_sound": null,
+                    "name": "chill",
+                    "index": 17
+                },
+                {
+                    "front_drawable": "level4_20_chop",
+                    "back_drawable": null,
+                    "front_sound": "chop_sp",
+                    "back_sound": null,
+                    "name": "chop",
+                    "index": 18
+                },
+                {
+                    "front_drawable": "level4_21_chin",
+                    "back_drawable": null,
+                    "front_sound": "chin_sp",
+                    "back_sound": null,
+                    "name": "chin",
+                    "index": 19
+                },
+                {
+                    "front_drawable": "level4_16_th",
+                    "back_drawable": null,
+                    "front_sound": "th",
+                    "back_sound": null,
+                    "name": "th",
+                    "index": 20
+                },
+                {
+                    "front_drawable": "level4_14_that",
+                    "back_drawable": null,
+                    "front_sound": "that_sp",
+                    "back_sound": null,
+                    "name": "that",
+                    "index": 21
+                },
+                {
+                    "front_drawable": "level4_19_this",
+                    "back_drawable": null,
+                    "front_sound": "this_sp",
+                    "back_sound": null,
+                    "name": "this",
+                    "index": 22
+                },
+                {
+                    "front_drawable": "level4_22_then",
+                    "back_drawable": null,
+                    "front_sound": "then_sp",
+                    "back_sound": null,
+                    "name": "then",
+                    "index": 23
+                },
+                {
+                    "front_drawable": "level4_25_my",
+                    "back_drawable": null,
+                    "front_sound": "my",
+                    "back_sound": null,
+                    "name": "my",
+                    "index": 24
+                },
+                {
+                    "front_drawable": "level4_26_i",
+                    "back_drawable": null,
+                    "front_sound": "i_word",
+                    "back_sound": null,
+                    "name": "I",
+                    "index": 25
+                },
+                {
+                    "front_drawable": "level4_28_me",
+                    "back_drawable": null,
+                    "front_sound": "me",
+                    "back_sound": null,
+                    "name": "me",
+                    "index": 26
+                },
+                {
+                    "front_drawable": "level4_29_she",
+                    "back_drawable": null,
+                    "front_sound": "she",
+                    "back_sound": null,
+                    "name": "she",
+                    "index": 27
+                },
+                {
+                    "front_drawable": "level4_31_he",
+                    "back_drawable": null,
+                    "front_sound": "he",
+                    "back_sound": null,
+                    "name": "he",
+                    "index": 28
+                },
+                {
+                    "front_drawable": "level4_32_like",
+                    "back_drawable": null,
+                    "front_sound": "like",
+                    "back_sound": null,
+                    "name": "like",
+                    "index": 29
+                },
+                {
+                    "front_drawable": "level4_33_we",
+                    "back_drawable": null,
+                    "front_sound": "we",
+                    "back_sound": null,
+                    "name": "we",
+                    "index": 30
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="LevelCollectionViewCell" customModule="littleReaders" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="423" height="248"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="423" height="248"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kWA-85-Dea">
+                        <rect key="frame" x="0.0" y="0.0" width="423" height="248"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="hby-20-O4t">
+                                <rect key="frame" x="164" y="15" width="95" height="51"/>
+                                <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N52-JU-yaa">
+                                <rect key="frame" x="10.666666666666657" y="66" width="401.66666666666674" height="21"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hby-20-O4t" firstAttribute="top" secondItem="kWA-85-Dea" secondAttribute="top" constant="15" id="JoM-jS-lcu"/>
+                            <constraint firstItem="hby-20-O4t" firstAttribute="centerX" secondItem="kWA-85-Dea" secondAttribute="centerX" id="XM6-g5-Fgl"/>
+                            <constraint firstItem="N52-JU-yaa" firstAttribute="centerX" secondItem="kWA-85-Dea" secondAttribute="centerX" id="ccx-ER-ckx"/>
+                            <constraint firstItem="N52-JU-yaa" firstAttribute="width" secondItem="kWA-85-Dea" secondAttribute="width" multiplier="0.95" id="jXk-yL-VeV"/>
+                            <constraint firstItem="N52-JU-yaa" firstAttribute="top" secondItem="hby-20-O4t" secondAttribute="bottom" id="ryf-ox-Xlz"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="kWA-85-Dea" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="3bw-UD-8Hw"/>
+                <constraint firstAttribute="trailing" secondItem="kWA-85-Dea" secondAttribute="trailing" id="U7D-ht-Uyx"/>
+                <constraint firstItem="kWA-85-Dea" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Zm4-fm-xi5"/>
+                <constraint firstAttribute="bottom" secondItem="kWA-85-Dea" secondAttribute="bottom" id="fFf-hU-t5A"/>
+            </constraints>
+            <size key="customSize" width="423" height="248"/>
+            <connections>
+                <outlet property="bgView" destination="kWA-85-Dea" id="vKL-BY-Ge9"/>
+                <outlet property="descriotionLabel" destination="N52-JU-yaa" id="H44-II-yp4"/>
+                <outlet property="titleLabel" destination="hby-20-O4t" id="65b-8I-fIC"/>
+            </connections>
+            <point key="canvasLocation" x="343.84615384615381" y="36.96682464454976"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SubCollectionViewCell" customModule="littleReaders" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="171" height="191"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="171" height="191"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lDL-XY-KX1">
+                        <rect key="frame" x="7" y="17" width="157" height="157"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xmx-DR-WD6">
+                                <rect key="frame" x="57.666666666666671" y="68" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Xmx-DR-WD6" firstAttribute="centerY" secondItem="lDL-XY-KX1" secondAttribute="centerY" id="epD-Ti-Z3m"/>
+                            <constraint firstAttribute="width" secondItem="lDL-XY-KX1" secondAttribute="height" multiplier="1:1" id="hqd-5w-h1Y"/>
+                            <constraint firstItem="Xmx-DR-WD6" firstAttribute="centerX" secondItem="lDL-XY-KX1" secondAttribute="centerX" id="tru-Qg-RZL"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="lDL-XY-KX1" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="aqE-uo-76X"/>
+                <constraint firstItem="lDL-XY-KX1" firstAttribute="width" secondItem="ZTg-uK-7eu" secondAttribute="width" multiplier="0.92" id="j4f-0z-F3r"/>
+                <constraint firstItem="lDL-XY-KX1" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="s4H-Dq-FzS"/>
+            </constraints>
+            <size key="customSize" width="171" height="191"/>
+            <connections>
+                <outlet property="bgView" destination="lDL-XY-KX1" id="Wa9-AL-Gj7"/>
+                <outlet property="textLabel" destination="Xmx-DR-WD6" id="Gym-a0-YFM"/>
+            </connections>
+            <point key="canvasLocation" x="153.07692307692307" y="16.706161137440759"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

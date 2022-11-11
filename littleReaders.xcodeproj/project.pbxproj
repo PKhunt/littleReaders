@@ -14,6 +14,7 @@
 		1F049786291A28450031E4F3 /* FuturaStd-Condensed.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1F049781291A28450031E4F3 /* FuturaStd-Condensed.otf */; };
 		1F049788291A2ED40031E4F3 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F049787291A2ED40031E4F3 /* Enums.swift */; };
 		1F04978B291A31720031E4F3 /* logo_menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F049789291A31710031E4F3 /* logo_menu.png */; };
+		1FB08AFC291D0B5900259960 /* NewData.json in Resources */ = {isa = PBXBuildFile; fileRef = 1FB08AFB291D0B5900259960 /* NewData.json */; };
 		1FD0194A29111F210017366A /* v.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FD018AB29111F190017366A /* v.mp3 */; };
 		1FD0194B29111F210017366A /* weep_sp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FD018AC29111F190017366A /* weep_sp.mp3 */; };
 		1FD0194C29111F210017366A /* rush_sp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FD018AD29111F190017366A /* rush_sp.mp3 */; };
@@ -381,6 +382,7 @@
 		1F049781291A28450031E4F3 /* FuturaStd-Condensed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FuturaStd-Condensed.otf"; sourceTree = "<group>"; };
 		1F049787291A2ED40031E4F3 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		1F049789291A31710031E4F3 /* logo_menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_menu.png; sourceTree = "<group>"; };
+		1FB08AFB291D0B5900259960 /* NewData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = NewData.json; path = littleReaders/Resources/NewData.json; sourceTree = SOURCE_ROOT; };
 		1FD018AB29111F190017366A /* v.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v.mp3; sourceTree = "<group>"; };
 		1FD018AC29111F190017366A /* weep_sp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = weep_sp.mp3; sourceTree = "<group>"; };
 		1FD018AD29111F190017366A /* rush_sp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rush_sp.mp3; sourceTree = "<group>"; };
@@ -1077,6 +1079,7 @@
 			children = (
 				1F04977C291A28310031E4F3 /* Fonts */,
 				1FD018CC29111F1B0017366A /* data.json */,
+				1FB08AFB291D0B5900259960 /* NewData.json */,
 				1FD019E929111F520017366A /* Images */,
 				1FD018AA29111EFC0017366A /* Sounds */,
 			);
@@ -1555,6 +1558,7 @@
 				1FD4AFFB2914F56C006F58CA /* level2_20_pin.png in Resources */,
 				1FD4B0642914F590006F58CA /* level3_14_big.png in Resources */,
 				1FD019C629111F210017366A /* pan_sp.mp3 in Resources */,
+				1FB08AFC291D0B5900259960 /* NewData.json in Resources */,
 				1FD019DC29111F210017366A /* sip_sp.mp3 in Resources */,
 				1FD019B429111F210017366A /* cup_sp.mp3 in Resources */,
 				1FD4B0702914F590006F58CA /* level3_24_fit.png in Resources */,
@@ -1831,7 +1835,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = ZD77WQ2BZ4;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -1842,6 +1846,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1869,7 +1874,7 @@
 				CODE_SIGN_IDENTITY = "Apple Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = ZD77WQ2BZ4;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -1880,6 +1885,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

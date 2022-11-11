@@ -86,10 +86,7 @@ extension HomeViewController: UICollectionViewDataSource{
 
 extension HomeViewController: UICollectionViewDelegate{
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        //TODO: Remove after release
-        if indexPath.row > 1{
-            return
-        }
+       
         let descriptionViewController = self.storyboard?.instantiateViewController(withIdentifier: "DesciptionViewController") as! DesciptionViewController
         descriptionViewController.levelDetails = appData?.levels?[indexPath.row]
         self.navigationController?.pushViewController(descriptionViewController, animated: true)

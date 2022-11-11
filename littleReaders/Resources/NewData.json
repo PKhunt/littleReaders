@@ -20,7 +20,7 @@
                     "front_drawable": "level1_a_back",
                     "back_drawable": "level1_a",
                     "front_sound": "a",
-                    "back_sound": "a",
+                    "back_sound": "apple",
                     "name": "a",
                     "index": 1
                 },
@@ -28,7 +28,7 @@
                     "front_drawable": "level1_b_back",
                     "back_drawable": "level1_b",
                     "front_sound": "b",
-                    "back_sound": "b",
+                    "back_sound": "ball",
                     "name": "b",
                     "index": 2
                 },
@@ -36,7 +36,7 @@
                     "front_drawable": "level1_c_back",
                     "back_drawable": "level1_c",
                     "front_sound": "c",
-                    "back_sound": "c",
+                    "back_sound": "cat",
                     "name": "c",
                     "index": 3
                 },
@@ -44,7 +44,7 @@
                     "front_drawable": "level1_d_back",
                     "back_drawable": "level1_d",
                     "front_sound": "d",
-                    "back_sound": "d",
+                    "back_sound": "duck",
                     "name": "d",
                     "index": 4
                 },
@@ -52,7 +52,7 @@
                     "front_drawable": "level1_e_back",
                     "back_drawable": "level1_e",
                     "front_sound": "e",
-                    "back_sound": "e",
+                    "back_sound": "elephant",
                     "name": "e",
                     "index": 5
                 },
@@ -60,7 +60,7 @@
                     "front_drawable": "level1_f_back",
                     "back_drawable": "level1_f",
                     "front_sound": "f",
-                    "back_sound": "f",
+                    "back_sound": "frog",
                     "name": "f",
                     "index": 6
                 },
@@ -68,7 +68,7 @@
                     "front_drawable": "level1_g_back",
                     "back_drawable": "level1_g",
                     "front_sound": "g",
-                    "back_sound": "g",
+                    "back_sound": "grapes",
                     "name": "g",
                     "index": 7
                 },
@@ -76,7 +76,7 @@
                     "front_drawable": "level1_h_back",
                     "back_drawable": "level1_h",
                     "front_sound": "h",
-                    "back_sound": "h",
+                    "back_sound": "helicopter",
                     "name": "h",
                     "index": 8
                 },
@@ -84,7 +84,7 @@
                     "front_drawable": "level1_i_back",
                     "back_drawable": "level1_i",
                     "front_sound": "i",
-                    "back_sound": "i",
+                    "back_sound": "igloo",
                     "name": "i",
                     "index": 9
                 },
@@ -92,7 +92,7 @@
                     "front_drawable": "level1_j_back",
                     "back_drawable": "level1_j",
                     "front_sound": "j",
-                    "back_sound": "j",
+                    "back_sound": "jack",
                     "name": "j",
                     "index": 10
                 },
@@ -100,7 +100,7 @@
                     "front_drawable": "level1_k_back",
                     "back_drawable": "level1_k",
                     "front_sound": "k",
-                    "back_sound": "k",
+                    "back_sound": "kite",
                     "name": "k",
                     "index": 11
                 },
@@ -108,7 +108,7 @@
                     "front_drawable": "level1_l_back",
                     "back_drawable": "level1_l",
                     "front_sound": "l",
-                    "back_sound": "l",
+                    "back_sound": "lion",
                     "name": "l",
                     "index": 12
                 },
@@ -116,7 +116,7 @@
                     "front_drawable": "level1_m_back",
                     "back_drawable": "level1_m",
                     "front_sound": "m",
-                    "back_sound": "m",
+                    "back_sound": "monkey",
                     "name": "m",
                     "index": 13
                 },
@@ -124,7 +124,7 @@
                     "front_drawable": "level1_n_back",
                     "back_drawable": "level1_n",
                     "front_sound": "n",
-                    "back_sound": "n",
+                    "back_sound": "nest",
                     "name": "n",
                     "index": 14
                 },
@@ -132,7 +132,7 @@
                     "front_drawable": "level1_o_back",
                     "back_drawable": "level1_o",
                     "front_sound": "o",
-                    "back_sound": "o",
+                    "back_sound": "octopus",
                     "name": "o",
                     "index": 15
                 },
@@ -140,7 +140,7 @@
                     "front_drawable": "level1_p_back",
                     "back_drawable": "level1_p",
                     "front_sound": "p",
-                    "back_sound": "p",
+                    "back_sound": "penguin",
                     "name": "p",
                     "index": 16
                 },
@@ -148,7 +148,7 @@
                     "front_drawable": "level1_q_back",
                     "back_drawable": "level1_q",
                     "front_sound": "q",
-                    "back_sound": "q",
+                    "back_sound": "queen",
                     "name": "q",
                     "index": 17
                 },
@@ -156,7 +156,7 @@
                     "front_drawable": "level1_r_back",
                     "back_drawable": "level1_r",
                     "front_sound": "r",
-                    "back_sound": "r",
+                    "back_sound": "rabbit",
                     "name": "r",
                     "index": 18
                 },
@@ -164,7 +164,7 @@
                     "front_drawable": "level1_s_back",
                     "back_drawable": "level1_s",
                     "front_sound": "s",
-                    "back_sound": "s",
+                    "back_sound": "snake",
                     "name": "s",
                     "index": 19
                 },
@@ -172,7 +172,7 @@
                     "front_drawable": "level1_t_back",
                     "back_drawable": "level1_t",
                     "front_sound": "t",
-                    "back_sound": "t",
+                    "back_sound": "tent",
                     "name": "t",
                     "index": 20
                 },
@@ -180,7 +180,7 @@
                     "front_drawable": "level1_u_back",
                     "back_drawable": "level1_u",
                     "front_sound": "u",
-                    "back_sound": "u",
+                    "back_sound": "umbrella",
                     "name": "u",
                     "index": 21
                 },
@@ -188,7 +188,7 @@
                     "front_drawable": "level1_v_back",
                     "back_drawable": "level1_v",
                     "front_sound": "v",
-                    "back_sound": "v",
+                    "back_sound": "vase",
                     "name": "v",
                     "index": 22
                 },
@@ -196,7 +196,7 @@
                     "front_drawable": "level1_w_back",
                     "back_drawable": "level1_w",
                     "front_sound": "w",
-                    "back_sound": "w",
+                    "back_sound": "whale",
                     "name": "w",
                     "index": 23
                 },
@@ -204,7 +204,7 @@
                     "front_drawable": "level1_x_back",
                     "back_drawable": "level1_x",
                     "front_sound": "x",
-                    "back_sound": "x",
+                    "back_sound": "xray",
                     "name": "x",
                     "index": 24
                 },
@@ -212,7 +212,7 @@
                     "front_drawable": "level1_y_back",
                     "back_drawable": "level1_y",
                     "front_sound": "y",
-                    "back_sound": "y",
+                    "back_sound": "yoyo",
                     "name": "y",
                     "index": 25
                 },
@@ -220,7 +220,7 @@
                     "front_drawable": "level1_z_back",
                     "back_drawable": "level1_z",
                     "front_sound": "z",
-                    "back_sound": "z",
+                    "back_sound": "zebra",
                     "name": "z",
                     "index": 26
                 }

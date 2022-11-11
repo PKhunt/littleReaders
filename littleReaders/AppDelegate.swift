@@ -25,9 +25,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
                 let jsonResult = try JSONDecoder().decode(AppData.self, from: data)
                 var customData = jsonResult
-                customData.levels = customData.levels?.filter({ element in
-                    return element.number == 1 || element.number == 2
-                })
+                //customData.levels = customData.levels?.filter({ element in
+                //    return element.number == 1 || element.number == 2 || element.number == 3
+               // })
                 appData = customData
             } catch {
                 print("error: \(error.localizedDescription)")

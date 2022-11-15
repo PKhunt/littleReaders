@@ -1,19 +1,29 @@
 {
   "images" : [
     {
-      "filename" : "level2_pressed_sound.png",
-      "idiom" : "universal",
+      "filename" : "level2_pressed_sound 1.png",
+      "idiom" : "iphone",
       "scale" : "1x"
     },
     {
-      "filename" : "level2_pressed_sound@2x.png",
-      "idiom" : "universal",
+      "filename" : "level-1.png",
+      "idiom" : "iphone",
       "scale" : "2x"
     },
     {
-      "filename" : "level2_pressed_sound@3x.png",
-      "idiom" : "universal",
+      "filename" : "level-2.png",
+      "idiom" : "iphone",
       "scale" : "3x"
+    },
+    {
+      "filename" : "level-1 1.png",
+      "idiom" : "ipad",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "level-3 1.png",
+      "idiom" : "ipad",
+      "scale" : "2x"
     }
   ],
   "info" : {

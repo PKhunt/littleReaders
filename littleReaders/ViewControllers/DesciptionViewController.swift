@@ -13,6 +13,8 @@ class DesciptionViewController: UIViewController {
     @IBOutlet weak var titleNameLabel: UILabel!
     @IBOutlet weak var detailDescriptionLabel: UITextView!
     @IBOutlet weak var startButton: UIButton!
+
+    var currentDevice = UIDevice.current.userInterfaceIdiom == .phone ? "iphone" : "ipad"
     
     //MARK: Variables
     var levelDetails: Level?
@@ -84,11 +86,12 @@ class DesciptionViewController: UIViewController {
     func setRightBarButton(title: String){
         let button = UIButton(type: .custom)
         button.setTitle(" \(title)", for: .normal)
-        button.titleLabel?.font = UIFont(name: CustomFont.futuraStdMedium.rawValue, size: 15)
+        button.titleLabel?.font = UIFont(name: CustomFont.futuraStdMedium.rawValue, size: currentDevice == "iphone" ? 15 : 25)
+        
         button.setTitleColor(.gray, for: .normal)
         button.setImage(UIImage(named: "arrow_right"), for: .normal)
-        button.imageEdgeInsets = UIEdgeInsets(top: 0, left: 40, bottom: 0, right: 0)
-        button.titleEdgeInsets = UIEdgeInsets(top: 0, left: -45, bottom: 0, right: 0)
+        button.imageEdgeInsets = UIEdgeInsets(top: 0, left: currentDevice == "iphone" ? 40 : 65, bottom: 0, right: 0)
+        button.titleEdgeInsets = UIEdgeInsets(top: 0, left: currentDevice == "iphone" ? -45 : -65, bottom: 0, right: 0)
         button.addTarget(self, action: #selector(nextLevelAction), for: .touchUpInside)
         navigationItem.rightBarButtonItem = UIBarButtonItem(customView: button)
     }
@@ -96,7 +99,7 @@ class DesciptionViewController: UIViewController {
     func setLeftBarButton(){
         let button = UIButton(type: .custom)
         button.setTitle("Menu", for: .normal)
-        button.titleLabel?.font = UIFont(name: CustomFont.futuraStdMedium.rawValue, size: 15)
+        button.titleLabel?.font = UIFont(name: CustomFont.futuraStdMedium.rawValue, size: currentDevice == "iphone" ? 15 : 25)
         button.setTitleColor(.gray, for: .normal)
         button.setImage(UIImage(named: "arrow_left"), for: .normal)
         button.imageEdgeInsets = UIEdgeInsets(top: 0, left: -5, bottom: 0, right: 0)
